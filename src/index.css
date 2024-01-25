@@ -1,6 +1,6 @@
 :root {
-  --font-base: 'Lato', sans-serif;
-  --font-display: 'Vina Sans', sans-serif;
+  --font-base: "Lato", sans-serif;
+  --font-display: "Vina Sans", sans-serif;
 }
 
 * {
@@ -15,7 +15,7 @@ body {
   align-items: center;
   min-height: 100vh;
   /* Pattern from css-pattern.com */
-  background: repeating-conic-gradient(#f2e9e1 0 45deg, #bdd9e0 0 90deg) 0 0/100px 100px;
+  background-color: beige;
   font-family: var(--font-base);
   color: #333;
 }
@@ -49,7 +49,7 @@ h1 {
 }
 
 .result {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
